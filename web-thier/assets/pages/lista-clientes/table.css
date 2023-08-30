@@ -1,0 +1,82 @@
+.clients-container {
+    display: flex;
+    justify-content: center;
+}
+
+table {  
+    margin: 22rem;
+    margin-top: 2.25rem;
+    width: 60%;
+    justify-content: space-around;
+    background-color: #FAFAFA;
+    border-radius: 10px;
+}
+
+.tabela td:first-of-type, .tabela th:first-of-type {
+    padding-left: 1.75rem;
+}
+
+.tabela td:last-of-type, .tabela th:last-of-type {
+    padding-left: 1.75rem;
+}
+
+.tabela thead {
+    font-size: 22px;
+}
+
+.tabela th {
+    padding-top: 1.75rem;
+    padding-bottom: 1.75rem;
+    border-bottom: 1px solid var(--cor-secundaria);
+}
+
+.tabela td {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.tabela-alinhamento-direita {
+    margin-left: 300px;
+    text-align: right;
+}
+
+.tabela-coluna--p {
+    width: 20%;
+}
+
+.tabela-coluna--m {
+    width: 25%;
+}
+
+.tabela-coluna--g {
+    width: 50%;
+}
+
+.tabela tr:last-of-type td {
+    padding-bottom: 1.75rem;
+}
+
+.tabela-botoes--controle {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.tabela-botoes--controle {
+    display: flex;
+    align-items: center;
+}
+
+tr{
+    display: flex;
+    justify-content: space-between;
+}
+
+.table-title{
+    display: flex;
+    gap: 20px;
+}
+
+.email{
+    margin-right: 400px;
+}

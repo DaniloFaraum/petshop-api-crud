@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Chewy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan&display=swap');
+@import url(./header.css);
+@import url(./section.css);
+
+*{
+    font-family: 'League Spartan', sans-serif;
+}
+
+body{
+    background-color: #C7EEFF;
+}

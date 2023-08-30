@@ -1,0 +1,38 @@
+.logo{
+    height: 90px;
+    width: auto;
+    margin-left: 10%;
+}
+
+header{
+    background-color: #FAFAFA;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+.ul-header{
+    display: flex;
+    list-style: none;
+    width: 50%;
+    gap: 15%;
+    margin-top: 35px;
+}
+
+a:link {
+    text-decoration: none;
+  }
+  
+  a:visited {
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  a:active {
+    text-decoration: underline;
+  }

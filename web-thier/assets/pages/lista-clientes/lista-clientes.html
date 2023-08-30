@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../reset.css">
+    <link rel="stylesheet" href="./main.css">
+    <title>Faraum Petshop</title>
+    <script src="../../js/client-service.js" defer></script>
+</head>
+<body>
+    <header class="container">
+        <nav>
+            <img src="/assets/img/logo.png" alt="logo" class="logo">
+            <ul class="ul-header">
+                <li class="li-header"><a href="">Dashboard</a></li>
+                <li class="li-header"><a href="">Produtos</a></li>
+                <li class="li-header"><a href="">Clientes</a></li>
+                <li class="li-header"><a href="">Calçados</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="clients-container">
+        <table class="tabela">
+            <thead>
+                <tr>
+                    <th class="tabela-coluna--p nome">Nome</th>
+                    <th class="tabela-coluna--p email">E-mail</th>
+                    <th class="tabela-coluna--m tabela-alinhameto-direita"><a href="../cadastro/cadastro.html" class="botao-simples botao-simples-adicionar">Novo Cliente</a></th>
+                </tr>
+            </thead>
+            <tbody data-tabela>
+                
+            </tbody>
+        </table>
+        <div class="modal-container modal-fechado">
+            <article class="modal">
+                <h2 class="modal-title">Excluir</h2>
+                <button class="modal-fechar">X</button>
+                <p class="modal-text">Deseja excluir essa entrada?</p>
+            </article>
+        </div>
+    </main>
+</body>
+</html>
