@@ -1,0 +1,39 @@
+section{
+    width: 180px;
+    height: 150px;
+    border: 5px solid black;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 10px;
+    gap: 15px;
+    box-shadow: -6px 8px 5px 0px rgba(0, 0, 0, 0.25);
+    z-index: 5;
+    margin-left: 85%;
+}
+
+div{
+    width: 50px;
+    height: 50px;
+    border: 5px solid black;
+    border-radius: 100px;
+    cursor: pointer;
+}
+
+.pink{
+    background-color: #EAB3D4;
+}
+
+.blue{
+    background-color: #B3D6EA;
+}
+
+.purple{
+    background-color: #BBB3EA;
+}
+
+.green{
+    background-color: #B3EAB5;
+}

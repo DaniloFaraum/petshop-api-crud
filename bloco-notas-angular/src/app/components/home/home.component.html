@@ -1,0 +1,24 @@
+<header>
+    <app-fixed-tab></app-fixed-tab>
+    <app-search></app-search>
+</header>
+<div class="no-notes-container" *ngIf="noteList.length > 0, else noNotes">
+  <div class="notes" >
+    <app-new-note></app-new-note>
+      <div class="note-list" *ngFor="let note of noteList">
+        <app-note-widget [note]="note"></app-note-widget>
+      </div>
+</div>
+</div>
+
+<ng-template #noNotes>
+  <div>
+    <div class="notes" >
+      <app-new-note></app-new-note>
+    </div>
+    <p class="no-notes">Notas criadas serão <br> exibidas aqui</p>
+  </div>
+</ng-template>
+
+
+

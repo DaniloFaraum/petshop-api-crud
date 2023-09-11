@@ -1,0 +1,22 @@
+.title{
+  display: flex;
+  gap: 15px;
+}
+
+p{
+  font-size: 60px;
+  font-weight: 800;
+}
+
+.notes{
+  display: flex;
+  gap: 100px;
+}
+
+section{
+  width: 40%;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}

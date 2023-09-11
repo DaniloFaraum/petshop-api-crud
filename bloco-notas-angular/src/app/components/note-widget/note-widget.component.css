@@ -1,0 +1,22 @@
+div{
+    background-color: #EAE7B3;
+    width: 22vw;
+    padding: 1vw;
+    height: 250px;
+    margin-bottom: 7%;
+    flex-direction: column;
+    border-radius: 10px;
+  }
+
+  .title{
+    color: black;
+    font-size: 48px;
+    font-weight: 600;
+    cursor: pointer;
+  }
+
+  .text{
+    font-size: 16px;
+    font-weight: 400;
+    word-break: break-word;
+  }
