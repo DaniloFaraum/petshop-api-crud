@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="../reset.css">
     <link rel="stylesheet" href="./main.css">
     <title>Faraum Petshop</title>
+    <script src="../../js/client-edit.js" defer></script>
 </head>
 <body>
     <header class="container">
@@ -22,9 +23,9 @@
     <main>
         <form action="">
             <h2>Edição</h2>
-                <input type="text" placeholder="Nome">
-                <input type="text" placeholder="Email">
-                <button>Editar</button>
+                <input type="text" placeholder="Nome" id="nameInput">
+                <input type="text" placeholder="Email" id="emailInput">
+                <button type="button" id="edit"  onclick="put()">Editar</button>
         </form>
     </main>
 </body>
