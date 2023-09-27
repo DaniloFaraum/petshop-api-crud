@@ -13,6 +13,7 @@ import { HomeComponent } from './components/home/home.component';
 import { NoteEditorComponent } from './components/note-editor/note-editor.component';
 import { ColorSelectorComponent } from './components/color-selector/color-selector.component';
 import { NoteWidgetComponent } from './components/note-widget/note-widget.component';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -30,7 +31,8 @@ import { NoteWidgetComponent } from './components/note-widget/note-widget.compon
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]

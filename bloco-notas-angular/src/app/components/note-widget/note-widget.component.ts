@@ -1,5 +1,5 @@
 import { Component, Input } from '@angular/core';
-import {Note} from '../note';
+import { Note } from '../note';
 
 @Component({
   selector: 'app-note-widget',
@@ -8,10 +8,9 @@ import {Note} from '../note';
 })
 
 export class NoteWidgetComponent {
-  @Input() nota:Note = {
+  @Input() note:Note = {
     id: 1,
     title: "titulo",
     content: "testeeee",
-    type: "type1"
   }
 }

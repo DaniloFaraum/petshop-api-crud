@@ -1,4 +1,6 @@
 import { Component } from '@angular/core';
+import { NoteService } from '../note.service';
+import { Note } from '../note';
 
 @Component({
   selector: 'app-home',
@@ -6,22 +8,13 @@ import { Component } from '@angular/core';
   styleUrls: ['./home.component.css']
 })
 export class HomeComponent {
-  noteList = [
-    {
-      title: "placeholder",
-      content: "plaaaaaceholder",
-    },
-    {
-      title: "gbffdgfgf",
-      content: "plaaaaaceholder",
-    },
-    {
-      title: "gbffdgfgf",
-      content: "plaaaaaceholder",
-    },
-    {
-      title: "gbffdgfgf",
-      content: "plaaaaaceholder",
-    }
-  ]
+  constructor(private service: NoteService) { }
+
+  noteList: Note[] = []
+
+  ngOnInit(): void {
+    this.service.list().subscribe((noteList) => {
+      this.noteList = noteList
+    })
+  }
 }
