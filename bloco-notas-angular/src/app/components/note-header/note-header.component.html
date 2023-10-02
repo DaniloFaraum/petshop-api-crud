@@ -2,9 +2,10 @@
   <div class="header">
     <img src="../../../assets/images/arrow_back.svg" alt="" routerLink="../home">
     <div class="icons">
-      <img src="../../../assets/images/push_pin.svg" alt="">
-      <img src="../../../assets/images/palette.svg" (click)="showPallete()" alt="">
-      <img src="../../../assets/images/delete.svg" alt="">
+      <img src="../../../assets/images/push_pin.svg" alt="" class="icon">
+      <img src="../../../assets/images/palette.svg" (click)="showPallete()" alt="" class="icon">
+      <img src="../../../assets/images/delete.svg" alt="" class="icon">
+      <app-save-button  class="icon"></app-save-button>
     </div>
   </div>
   <app-color-selector class="{{pallete.visibility}} pallete"></app-color-selector>

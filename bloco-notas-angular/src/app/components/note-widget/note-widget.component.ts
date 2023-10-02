@@ -12,5 +12,6 @@ export class NoteWidgetComponent {
     id: 1,
     title: "titulo",
     content: "testeeee",
+    color: "default"
   }
 }

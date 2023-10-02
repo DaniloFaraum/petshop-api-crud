@@ -8,7 +8,6 @@ import { Component, Input } from '@angular/core';
 export class NoteTextComponent {
   note = {
     title: "placeholder",
-    content: "plaaaaaceholder",
-    type: "type1"
+    content: "plaaaaaceholder"
   }
 }

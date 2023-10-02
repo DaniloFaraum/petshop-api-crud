@@ -1,6 +1,5 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { FixedNoteComponent } from './components/fixed-note/fixed-note.component';
@@ -14,6 +13,7 @@ import { NoteEditorComponent } from './components/note-editor/note-editor.compon
 import { ColorSelectorComponent } from './components/color-selector/color-selector.component';
 import { NoteWidgetComponent } from './components/note-widget/note-widget.component';
 import { HttpClientModule } from '@angular/common/http';
+import { SaveButtonComponent } from './components/save-button/save-button.component';
 
 @NgModule({
   declarations: [
@@ -28,6 +28,7 @@ import { HttpClientModule } from '@angular/common/http';
     NoteEditorComponent,
     ColorSelectorComponent,
     NoteWidgetComponent,
+    SaveButtonComponent
   ],
   imports: [
     BrowserModule,

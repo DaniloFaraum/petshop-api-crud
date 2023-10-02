@@ -11,12 +11,12 @@
   gap: 40px;
 }
 
-.icons img{
+.icon{
   width: 40px;
   height: auto;
 }
 
-img:hover{
+.icon:hover{
   cursor: pointer;
 }
 
@@ -28,4 +28,3 @@ section{
   margin-bottom: -140px;
   width: 100%;
 }
-
