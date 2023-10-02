@@ -14,6 +14,7 @@ import { ColorSelectorComponent } from './components/color-selector/color-select
 import { NoteWidgetComponent } from './components/note-widget/note-widget.component';
 import { HttpClientModule } from '@angular/common/http';
 import { SaveButtonComponent } from './components/save-button/save-button.component';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -33,7 +34,8 @@ import { SaveButtonComponent } from './components/save-button/save-button.compon
   imports: [
     BrowserModule,
     AppRoutingModule,
-    HttpClientModule
+    HttpClientModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

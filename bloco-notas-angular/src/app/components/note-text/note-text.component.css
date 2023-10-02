@@ -6,14 +6,17 @@ div{
   gap: 20px;
 }
 
-p{
-  font-size: 24px;
-}
-
-h1{
+input{
+  all: unset;
   font-size: 68px;
+  font-weight: 700;
 }
 
-[contenteditable] {
+textarea{
+  all: unset;
+  height: 100%;
   outline: 0px solid transparent;
+  font-size: 24px;
+  overflow-x: hidden;
+  word-wrap: break-word;
 }

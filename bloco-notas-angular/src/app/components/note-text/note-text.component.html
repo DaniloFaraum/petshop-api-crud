@@ -1,4 +1,4 @@
 <div>
-  <h1 contenteditable="true">{{ note.title }}</h1>
-  <p contenteditable="true">{{ note.content }} </p>
+  <input [(ngModel)]="note.title" placeholder="Titulo" class="title">
+  <p [(ngModel)]="note.content" class="content" contenteditable="true"></p>
 </div>

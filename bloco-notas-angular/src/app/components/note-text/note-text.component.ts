@@ -1,4 +1,7 @@
 import { Component, Input } from '@angular/core';
+import { Note } from '../note';
+import { Router } from '@angular/router';
+import { NoteService } from '../note.service';
 
 @Component({
   selector: 'app-note-text',
@@ -6,8 +9,20 @@ import { Component, Input } from '@angular/core';
   styleUrls: ['./note-text.component.css']
 })
 export class NoteTextComponent {
-  note = {
-    title: "placeholder",
-    content: "plaaaaaceholder"
+  constructor(
+    private service: NoteService,
+    private router: Router
+  ){}
+
+  createNote(){
+    this.service.create(this.note).subscribe(() =>{
+      this.router.navigate(['/home'])
+    })
+  }
+
+  note: Note = {
+    title: "",
+    content: "",
+    color: ""
   }
 }
