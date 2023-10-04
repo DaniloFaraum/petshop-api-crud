@@ -1,4 +1,5 @@
 <div>
   <input [(ngModel)]="note.title" placeholder="Titulo" class="title">
-  <p [(ngModel)]="note.content" class="content" contenteditable="true"></p>
+  <textarea [(ngModel)]="note.content" class="content" contenteditable="true"></textarea>
 </div>
+<button (click)="createNote()">Criar</button>

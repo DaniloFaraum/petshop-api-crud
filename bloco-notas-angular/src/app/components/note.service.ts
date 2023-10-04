@@ -18,6 +18,16 @@ export class NoteService {
     return this.http.post<Note>(this.API, note)
   }
 
+  getNoteId(id: number): Observable<Note> {
+    const url = `${this.API}/${id}`
+    return this.http.get<Note>(url)
+  }
+
+  delete(id: number): Observable<Note> {
+    const url = `${this.API}/${id}`
+    return this.http.delete<Note>(url)
+  }
+
 }
 
 

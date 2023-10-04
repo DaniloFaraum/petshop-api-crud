@@ -4,6 +4,7 @@ import { FixedNoteComponent } from './components/fixed-note/fixed-note.component
 import { HomeComponent } from './components/home/home.component';
 import { NewNoteComponent } from './components/new-note/new-note.component';
 import { NoteEditorComponent } from './components/note-editor/note-editor.component';
+import { DeleteButtonComponent } from './components/delete-button/delete-button.component';
 
 const routes: Routes = [
   {
@@ -18,6 +19,10 @@ const routes: Routes = [
     path: "",
     redirectTo: "home",
     pathMatch: "full"
+  },
+  {
+    path: 'deleteNote/:id',
+    component: DeleteButtonComponent
   }
 ];
 

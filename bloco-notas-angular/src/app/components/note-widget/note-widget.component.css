@@ -2,10 +2,14 @@ div{
     background-color: #EAE7B3;
     width: 22vw;
     padding: 1vw;
-    height: 250px;
+    min-height: 250px;
+    display: block;
+    overflow: auto;
     margin-bottom: 7%;
     flex-direction: column;
     border-radius: 10px;
+    display: flex;
+    flex-wrap: wrap;
   }
 
   .title{

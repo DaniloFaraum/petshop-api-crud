@@ -15,6 +15,7 @@ import { NoteWidgetComponent } from './components/note-widget/note-widget.compon
 import { HttpClientModule } from '@angular/common/http';
 import { SaveButtonComponent } from './components/save-button/save-button.component';
 import { FormsModule } from '@angular/forms';
+import { DeleteButtonComponent } from './components/delete-button/delete-button.component';
 
 @NgModule({
   declarations: [
@@ -29,7 +30,8 @@ import { FormsModule } from '@angular/forms';
     NoteEditorComponent,
     ColorSelectorComponent,
     NoteWidgetComponent,
-    SaveButtonComponent
+    SaveButtonComponent,
+    DeleteButtonComponent
   ],
   imports: [
     BrowserModule,

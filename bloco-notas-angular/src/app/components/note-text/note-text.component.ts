@@ -9,20 +9,25 @@ import { NoteService } from '../note.service';
   styleUrls: ['./note-text.component.css']
 })
 export class NoteTextComponent {
+
   constructor(
     private service: NoteService,
     private router: Router
   ){}
 
-  createNote(){
-    this.service.create(this.note).subscribe(() =>{
-      this.router.navigate(['/home'])
-    })
-  }
 
   note: Note = {
     title: "",
     content: "",
     color: ""
   }
+  
+  createNote(){
+    this.service.create(this.note).subscribe(() =>{
+      this.router.navigate(['/home'])
+    })
+  }
+
+
+
 }

@@ -1,4 +1,6 @@
 <div>
     <p class="title">{{ note.title }}</p>
     <p class="text">{{ note.content }}</p>
+    <button routerLink="/deleteNote/{{ note.id }}" src="../../../assets/images/delete.svg" alt="" class="icon" ></button>
+    <p>{{note.id}}</p>
 </div>
